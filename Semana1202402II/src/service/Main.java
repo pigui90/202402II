@@ -10,27 +10,27 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-//		String nombre = "Sergio";
-//		String apellido1 = "Campos";
-//		String apellido2 = "Rodriguez";
-//		
-//		System.out.println("El nombre del profesor es " + nombre + " " + apellido1 + " " + apellido2);
-//		System.out.printf("El nombre del profesor es: %1s %2s %3s", nombre, apellido1, apellido2);
-//		
-//		Date fechaHoy = new Date();
-//		
-//		System.out.printf("\nLa fecha de hoy es: %1$td-%1$tm-%1$ty", fechaHoy);
-//		
+		String nombre = "Sergio";
+		String apellido1 = "Campos";
+		String apellido2 = "Rodriguez";
+		
+		System.out.println("El nombre del profesor es " + nombre + " " + apellido1 + " " + apellido2);
+		System.out.printf("El nombre del profesor es: %1s %2s %3s", nombre, apellido1, apellido2);
+		
+		Date fechaHoy = new Date();
+		
+		System.out.printf("\nLa fecha de hoy es: %1$td-%1$tm-%1$ty", fechaHoy);
+		
 		Scanner scan = new Scanner(System.in);
-//		
-//		System.out.println("\nDigame su edad");
-//		int edad = scan.nextInt();
-//		
-//		String estadoCivil = JOptionPane.showInputDialog("Estado Civil");
-//		
-//		JOptionPane.showMessageDialog(null, "Su estado civil es: " + estadoCivil);
-//		
-//		
+		
+		System.out.println("\nDigame su edad");
+		int edad = scan.nextInt();
+		
+		String estadoCivil = JOptionPane.showInputDialog("Estado Civil");
+		
+		JOptionPane.showMessageDialog(null, "Su estado civil es: " + estadoCivil);
+		
+		
 		System.out.println("Digite opcion \n1 Dividir numeros\n2 Separar letras\n3\n4");
 		int op = scan.nextInt();
 		switch (op) {
