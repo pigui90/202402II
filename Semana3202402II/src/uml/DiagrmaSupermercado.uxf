@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>370</x>
+      <y>0</y>
+      <w>210</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>Supermercado
+--
+- String nombre
+- int cedulaJuridica
+- String ubicacion
+--
++ String getNombre()
++ int getCedulaJuridica()
++ String getUbicacion()
++ void setNombre(String)
++ void setCedulaJuridica(int)
++ void setUbicacion(String)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>80</x>
+      <y>180</y>
+      <w>220</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>Cliente
+--
+- int identificacion
+- String nombre
+- Date fechaNacimiento
+- String codigoCliente
+- int puntoAcumulado
+--
++ int getIdentificacion()
++ void setIdentificacion(int)
++ String getNombre()
++ void setNombre(String)
++ Date getFechaNacimiento()
++ void setFechaNacimiento(Date)
++ String getCodigoCliente()
++ void setCodigoCliente(String)
++ int getPuntoAcumulado()
++ void setPuntoAcumulado(int)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>680</x>
+      <y>210</y>
+      <w>300</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>Producto
+--
+- String codigo
+- int precioUnitario
+- int cantidadStock
+- boolean indicadorDescuento
+- int porcentajeDescuento
+--
++ String getCodigo()
++ void setCodigo(String)
++ int getPrecioUnitario()
++ void setPrecioUnitario(int)
++ int getCantidadStock()
++ void setCantidadStock(int)
++ Boolean getIndicadorDescuento()
++ void setIndicadorDescuento(Boolean)
++ int getPorcentajeDescuento()
++ void setPorcentajeDescuento(int)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>400</x>
+      <y>230</y>
+      <w>200</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>Carrito
+--
+-String codigoUnico
+-Date fecha
+-Cliente cliente
+--
++String getCodigoUnico()
++void setCodigoUnico(String)
++Date getFecha()
++void setFecha(Date)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>420</y>
+      <w>270</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>DetalleCarrito
+--
+-Carrito carrito
+-Producto producto
+-int cantidadComprar
+-double precioTotalSinDescuento
+-double rebajoDescuento
+--
++Carrito getCarrito()
++void setCarrito(Carrito)
++Producto getProducto()
++void setPRoducto(Producto)
++int getCantidadComprar()
++void setCantidadComprar(int)
++double getPrecioTotalSinDescuento()
++void setPrecioTotalSinDescuento(double)
++double getRebajoDescuento()
++void setRebajoDescuento(double)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>210</x>
+      <y>110</y>
+      <w>180</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+*</panel_attributes>
+    <additional_attributes>10.0;70.0;160.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>570</x>
+      <y>110</y>
+      <w>140</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+1...*</panel_attributes>
+    <additional_attributes>120.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>290</x>
+      <y>290</y>
+      <w>130</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1..*</panel_attributes>
+    <additional_attributes>110.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>470</x>
+      <y>370</y>
+      <w>50</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1..*</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>590</x>
+      <y>450</y>
+      <w>110</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1..*</panel_attributes>
+    <additional_attributes>10.0;30.0;90.0;10.0</additional_attributes>
+  </element>
+</diagram>
