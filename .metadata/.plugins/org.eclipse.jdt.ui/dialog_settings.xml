@@ -32,22 +32,24 @@
 		<item key="nonavbar" value="false"/>
 		<item key="openinbrowser" value="false"/>
 		<item key="source" value="1.8"/>
-		<item key="antpath" value="C:\Users\Sergio\eclipse-workspace\Semana2202402II1\javadoc.xml"/>
-		<item key="destdir" value="C:\Users\Sergio\eclipse-workspace\Semana2202402II1\doc"/>
+		<item key="antpath" value="C:\Users\Sergio\Documents\GitHub\202402II\Semana4202402II\javadoc.xml"/>
+		<item key="destdir" value="C:\Users\Sergio\Documents\GitHub\202402II\Semana4202402II\doc"/>
 		<section name="projects">
-			<section name="Semana2202402II1">
+			<section name="Semana4202402II">
 				<item key="href" value=""/>
-				<item key="destdir" value="C:\Users\Sergio\eclipse-workspace\Semana2202402II1\doc"/>
-				<item key="antpath" value="C:\Users\Sergio\eclipse-workspace\Semana2202402II1\javadoc.xml"/>
-			</section>
-			<section name="Semana3202402II">
-				<item key="href" value=""/>
-				<item key="destdir" value="C:\Users\Sergio\Documents\GitHub\202402II\Semana3202402II\doc"/>
-				<item key="antpath" value="C:\Users\Sergio\Documents\GitHub\202402II\Semana3202402II\javadoc.xml"/>
+				<item key="destdir" value="C:\Users\Sergio\Documents\GitHub\202402II\Semana4202402II\doc"/>
+				<item key="antpath" value="C:\Users\Sergio\Documents\GitHub\202402II\Semana4202402II\javadoc.xml"/>
 			</section>
 		</section>
 	</section>
 	<section name="NewPackageWizardPage">
 		<item key="create_package_info_java" value="false"/>
+	</section>
+	<section name="OptionalMessageDialog.hide.">
+		<item key="org.eclipse.jdt.ui.typecomment.deprecated" value="true"/>
+	</section>
+	<section name="NewClassWizardPage">
+		<item key="create_constructor" value="false"/>
+		<item key="create_unimplemented" value="true"/>
 	</section>
 </section>
