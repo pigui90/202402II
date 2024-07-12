@@ -1,4 +1,4 @@
-!SESSION 2024-07-02 17:54:56.185 -----------------------------------------------
+!SESSION 2024-07-11 23:16:39.238 -----------------------------------------------
 eclipse.buildId=4.28.0.20230608-1200
 java.version=17.0.11
 java.vendor=Eclipse Adoptium
@@ -7,11 +7,11 @@ Framework arguments:  -product org.eclipse.epp.package.committers.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.committers.product
 
 This is a continuation of log file C:\Users\Sergio\Documents\GitHub\202402II\.metadata\.bak_0.log
-Created Time: 2024-07-02 17:55:29.732
+Created Time: 2024-07-11 23:17:25.118
 
-!ENTRY org.eclipse.jface 2 0 2024-07-02 17:55:29.732
+!ENTRY org.eclipse.jface 2 0 2024-07-11 23:17:25.118
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2024-07-02 17:55:29.732
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-07-11 23:17:25.118
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
@@ -30,12 +30,12 @@ Binding(CTRL+SHIFT+T,
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
-!ENTRY org.eclipse.egit.ui 2 0 2024-07-02 17:55:33.878
+!ENTRY org.eclipse.egit.ui 2 0 2024-07-11 23:17:29.826
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\Sergio'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
-!ENTRY org.eclipse.ui 2 2 2024-07-02 17:56:20.535
+!ENTRY org.eclipse.ui 2 2 2024-07-11 23:17:34.564
 !MESSAGE Invalid property category path: org.eclipse.papyrus.infra.gmfdiag.preferences.properties.generalcategory (bundle: org.eclipse.papyrus.infra.services.resourceloading.ui, propertyPage: org.eclipse.papyrus.infra.services.resourceloading.properties.ModelLoadingPreferencePage2)
