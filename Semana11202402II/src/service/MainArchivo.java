@@ -50,8 +50,11 @@ public class MainArchivo {
 					
 					break;
 				case 2:
+					
 					FileWriter fileWriter = new FileWriter(archivo, true);
 					BufferedWriter bw = new BufferedWriter(fileWriter);
+					
+					
 					
 					bw.write(JOptionPane.showInputDialog("Digame una linea para escribir en mi archivo"));
 					bw.newLine();
