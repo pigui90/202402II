@@ -10,9 +10,7 @@
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="model.Estudiante"/>
     <fullyQualifiedTypeName name="java.text.ParseException"/>
-    <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
-    <fullyQualifiedTypeName name="model.Funcionario"/>
     <fullyQualifiedTypeName name="model.Persona"/>
     <fullyQualifiedTypeName name="org.junit.Test"/>
     <fullyQualifiedTypeName name="model.Cliente"/>
@@ -27,8 +25,6 @@
     <fullyQualifiedTypeName name="model.Rectangulo"/>
     <fullyQualifiedTypeName name="model.Triangulo"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="model.Vehiculo"/>
     <fullyQualifiedTypeName name="model.Producto"/>
     <fullyQualifiedTypeName name="model.Servidor"/>
@@ -36,5 +32,14 @@
     <fullyQualifiedTypeName name="model.EstrategiaNormal"/>
     <fullyQualifiedTypeName name="model.Contexto"/>
     <fullyQualifiedTypeName name="model.EstrategiaAvanzada"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="java.io.FileWriter"/>
+    <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="model.Funcionario"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
 </qualifiedTypeNameHistroy>
