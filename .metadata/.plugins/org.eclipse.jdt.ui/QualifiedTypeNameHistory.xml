@@ -33,7 +33,6 @@
     <fullyQualifiedTypeName name="model.Contexto"/>
     <fullyQualifiedTypeName name="model.EstrategiaAvanzada"/>
     <fullyQualifiedTypeName name="java.io.File"/>
-    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
     <fullyQualifiedTypeName name="java.io.FileWriter"/>
     <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
@@ -42,4 +41,7 @@
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="java.io.FileReader"/>
     <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="view.PrimerPanel"/>
+    <fullyQualifiedTypeName name="view.SegundoFrame"/>
 </qualifiedTypeNameHistroy>
